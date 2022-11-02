@@ -1,0 +1,85 @@
+html {
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+body {
+    border: auto auto auto auto;
+    background-color: whitesmoke;
+}
+
+.original {
+    width: 100%;
+    height: 80px;
+    display: block;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+
+.box {
+    margin: 100px 80px 40px 150px;
+    padding: 10px 10px 10px 10px;
+    background-color: azure;
+}
+
+.nav_box {
+    height: 60px;
+    background-color: black;
+    padding-left: 50px;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+p {
+    font-size: 1.3em;
+    line-height: 2;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+button {
+    display: inline-block;
+    font-size: 1.3em;
+    padding: 10px 10px;
+    border-radius: 4px;
+    background-color: cadetblue;
+    color: white;
+    text-align: center;
+    border: white;
+    ;
+}
+
+button:hover {
+    background-color: darkcyan;
+    color: white;
+}
+
+button[name="header"] {
+    background-color: black;
+    color: gray;
+    font-size: 1.6em;
+    text-align: center;
+}
+
+button[name="header"]:hover {
+    color: white;
+}
+
+button[name="btn2"] {
+    background-color: lightblue;
+}
+
+button[name="btn2"]:hover {
+    background-color: lightskyblue;
+    color: white;
+}
+
+.content{
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}

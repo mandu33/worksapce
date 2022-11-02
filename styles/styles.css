@@ -1,0 +1,154 @@
+html,
+body {
+    font-size: 10px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-weight: lighter;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.div_section {
+    border-bottom: 2px solid pink;
+    padding: 10px 0 15px 0;
+}
+
+.page {
+    margin: auto;
+    width: 800px;
+    min-height: 0 auto;
+    background-color: aliceblue;
+    padding: 0;
+}
+
+h1 {
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    color: darksalmon;
+    text-align: center;
+}
+
+h2 {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: darksalmon;
+}
+
+p,
+article,
+dd,
+dt {
+    font-size: 1.6em;
+}
+
+img {
+    width: 65px;
+    height: 90px;
+}
+
+header {
+    font-size: 25px;
+    color: lightcoral;
+}
+
+footer {
+    color: lightcoral;
+    font-size: 15px;
+}
+
+.picture {
+    float: left;
+    border: 1px solid aliceblue;
+    background-color: aliceblue;
+}
+
+.movie_list {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto;
+    grid-gap: 10px;
+}
+
+#test1 {
+    grid-column: 1;
+    grid-row: 1;
+    border: 2px solid pink;
+}
+
+#test2 {
+    grid-column: 2;
+    grid-row: 1;
+    border: 2px solid pink;
+}
+
+#test3 {
+    grid-column: 1;
+    grid-row: 2;
+    border: 2px solid pink;
+    align-items: start;
+    grid-auto-rows: minmax(auto, 100px);
+}
+
+#test4 {
+    grid-column: 2;
+    grid-row: 2;
+    border: 2px solid pink;
+}
+
+#test5 {
+    grid-column: 1;
+    grid-row: 3;
+    border: 2px solid pink;
+}
+
+.movie {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto auto;
+    grid-gap: 10px;
+    overflow-y: auto;
+}
+
+.box1 {
+    justify-items: start;
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.box2 {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.box3 {
+    grid-column: 1/3;
+    grid-row: 3;
+}
+
+.box4 {
+    grid-column: 2;
+    grid-row: 1/3;
+}
+
+.picture1,
+.picture2 {
+    width: 100%;
+    height: auto;
+}
+
+.awards {
+    font-size: 1.5em;
+    font-style: italic;
+    color: darkseagreen;
+}
+
+#comment {
+    font-size: 1.3em;
+    color: darkseagreen;
+}
+
+#str {
+    font-weight: lighter;
+    font-size: 1.5em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
